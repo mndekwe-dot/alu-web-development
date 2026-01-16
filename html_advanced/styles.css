@@ -1,0 +1,436 @@
+/* Import Source Sans 3 from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;400;600;700&display=swap");
+
+* {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.landing {
+  background-image: url("./assets/background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo img {
+  margin-top: 35px;
+  margin-left: 171px;
+}
+
+.nav-links {
+  float: right;
+  position: relative;
+  right: 120px;
+  top: -35px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-right: 53px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 150px;
+  gap: 20px;
+  width: 100%;
+}
+
+.welcome h1 {
+  font-size: 125px;
+  color: white;
+  font-weight: bold;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.welcome .paragraphs {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.welcome p {
+  font-weight: bold;
+  padding-right: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.welcome button {
+  background-color: #c271ff;
+  color: #ffffff;
+  border: 1px solid #c117ff;
+  border-radius: 30px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 15px 30px; /* adjust size */
+  cursor: pointer;
+}
+
+.pros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 20px;
+  width: 100%;
+}
+
+.pros .pro-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.pros h2 {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.pros h3 {
+  font-weight: bold;
+}
+
+.pros .learn {
+  color: #c217ff;
+  font-weight: bold;
+}
+
+.pro-1 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.pro-2 {
+  padding-right: 100px;
+}
+
+.pro-3 {
+  padding-right: 100px;
+}
+
+.pro-4 {
+  padding-right: 100px;
+}
+
+.pro-1,
+.pro-2,
+.pro-3,
+.pro-4,
+img {
+  border-radius: 100px;
+}
+
+.pro-1,
+.pro-2,
+.pro-3,
+.pro-4,
+h3,
+p {
+  color: #ffffff;
+}
+
+.author {
+  display: flex;
+  gap: 30px;
+  background-color: #c117ff;
+  justify-content: center;
+  align-items: center;
+}
+
+.author .img {
+  border-radius: 100%;
+  padding-right: 50px;
+}
+
+.author .quote {
+  padding-top: 108px;
+  padding-bottom: 124px;
+  padding-right: 50px;
+}
+
+.author .quote blockquote {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.author .quote .person-name {
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 30px;
+  color: #ffffff;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.author .quote p {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: "Source Sans 3", sans-serif;
+  font-style: italic;
+}
+
+.most {
+  justify-content: center;
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.most .popular {
+  color: #c117ff;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
+}
+
+.tutorial {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-bottom: 120px;
+}
+
+.tutorial img {
+  border-radius: 2%;
+}
+
+.tutorial .smiles {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+  padding-left: 10px;
+}
+
+.tutorial-1 .stars {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.tutorial-1 .stars img {
+  padding-right: 5px;
+}
+
+.tutorial-2 .stars {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.tutorial-2 .stars img {
+  padding-right: 5px;
+}
+
+.tutorial-3 .stars {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.tutorial-3 .stars img {
+  padding-right: 5px;
+}
+
+.tutorial-4 .stars {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.tutorial-4 .stars img {
+  padding-right: 5px;
+}
+
+.tutorial .smiles img {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+
+.tutorial .smiles h3 {
+  color: #c117ff;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.tutorial .ranks p {
+  position: relative;
+  top: -32px;
+  float: right;
+  color: #c117ff;
+  font-weight: bold;
+}
+
+.tutorial h2 {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Source Sans 3", sans-serif;
+  color: #071629;
+  padding-left: 10px;
+  padding-top: 14px;
+}
+
+.tutorial p {
+  padding-top: 10px;
+  font-size: 14px;
+  padding-left: 10px;
+  color: #071629;
+}
+
+.free-mem {
+  background-color: #071629;
+}
+
+.section-4 {
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 180px;
+  padding-top: 50px;
+}
+
+.section-4 button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 120px;
+  right: 600px;
+  background-color: #c271ff;
+  color: #ffffff;
+  border: 1px solid #c117ff;
+  border-radius: 30px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 15px 30px; /* adjust size */
+  cursor: pointer;
+}
+
+.section-4 .free {
+  padding-left: 150px;
+}
+
+.section-4 .free h2 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.section-4 .free p {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.membership {
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  padding-top: 100px;
+}
+
+.membership .free {
+  color: #c117ff;
+  font-weight: bold;
+}
+
+.faq h1 {
+  text-align: center;
+  justify-content: center;
+  color: #071629;
+  font-weight: light;
+  font-size: 60px;
+  font-family: "Source Sans 3", sans-serif;
+  padding-top: 80px;
+}
+
+.col-1 {
+  display: flex;
+  justify-content: center;
+  color: #071629;
+  flex-direction: inline-block;
+}
+
+.col-1 .faq-1 {
+  padding-left: 50px;
+}
+
+.col-1 .faq-2 {
+  padding-left: 240px;
+}
+
+.col-2 .faq-3 {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.col-2 .faq-4 {
+  padding-top: 50px;
+  padding-left: 240px;
+  padding-bottom: 60px;
+}
+
+.col-2 {
+  display: flex;
+  justify-content: center;
+  color: #071629;
+  flex-direction: inline-block;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.col-1,
+.col-2,
+p {
+  color: #071629;
+}
+
+.col-1,
+.col-2,
+h2 {
+  color: #071629;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Source Sans 3", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+footer {
+  height: 150px;
+  background-color: #071629;
+}
+
+footer p {
+  text-align: center;
+  justify-content: center;
+  padding-left: 60px;
+  color: #ffffff;
+  font-weight: regular;
+  font-size: 12px;
+  padding-top: 50px;
+}
